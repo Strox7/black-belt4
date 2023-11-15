@@ -1,0 +1,42 @@
+/* .boxes {
+  display: flex;
+} */
+
+.boxes > span > .icon {
+  color: #e3d323;
+  font-size: 33px;
+}
+
+.boxes > span {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  margin: auto;
+  padding: 20px 22px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.boxes > span:hover {
+  background-color: #e3d323;
+  box-shadow: 0 0 10px #e3d323;
+}
+
+.boxes > span:hover .icon {
+  color: black;
+}
+
+.boxes > h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  font-size: 21px;
+}
+
+.boxes > p {
+  color: #a9a9a9;
+  font-size: 12px;
+  line-height: 1.4;
+}

@@ -1,0 +1,25 @@
+.WhyUs {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+
+.WhyUs > h3 {
+  color: #e3d323;
+  text-transform: uppercase;
+}
+
+.WhyUs > p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.WhyUs .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+}

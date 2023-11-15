@@ -1,0 +1,61 @@
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+}
+
+.contact .container .box {
+  display: flex;
+  align-items: center;
+}
+
+.contact .container .box span {
+  display: block;
+  background-color: #e3d323;
+  padding: 20px 23px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contact .container .box span:hover {
+  box-shadow: 0 0 10px #e3d323;
+}
+
+.contact .container .box span:hover .icon {
+  color: white;
+}
+
+.contact .container .box span .icon {
+  transition: 0.5s;
+}
+
+.contact .container .box a {
+  color: #a9a9a9;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.contact .container .box a:hover {
+  color: #e3d323;
+}
+
+@media (max-width: 600px) {
+  .contact .container .box a {
+    font-size: 14px;
+  }
+
+  .contact .container .box span {
+    padding: 14px 16px;
+  }
+}
