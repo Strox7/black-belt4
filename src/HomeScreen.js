@@ -84,7 +84,7 @@ function HomeScreen() {
         </div>
       </header>
       <div ref={videoRef} className={`video__landing ${showNavBar}`}>
-        <video loop muted autoPlay controls="">
+        <video loop muted autoPlay playsInline controls="">
           <source src={video} type="video/mp4" />
         </video>
         <div className="info">
